@@ -46,6 +46,7 @@ namespace UltimateQuiz_v0._2
                 lblAnswerStatus1.Text = "Correct!";
                 lblAnswerStatus1.BackColor = Color.Lime;
                 score++;
+                textBoxG1.ReadOnly = true;
             }
             else
             {
@@ -65,6 +66,7 @@ namespace UltimateQuiz_v0._2
                 lblAnswerStatus2.Text = "Correct!";
                 lblAnswerStatus2.BackColor = Color.Lime;
                 score++;
+                textBoxG2.ReadOnly = true;
             }
             else
             {
@@ -84,6 +86,7 @@ namespace UltimateQuiz_v0._2
                 lblAnswerStatus3.Text = "Correct!";
                 lblAnswerStatus3.BackColor = Color.Lime;
                 score++;
+                textBoxG3.ReadOnly = true;
             }
             else
             {
@@ -102,6 +105,7 @@ namespace UltimateQuiz_v0._2
                 lblAnswerStatus4.Text = "Correct!";
                 lblAnswerStatus4.BackColor = Color.Lime;
                 score++;
+                comboBoxG4.Enabled = false;
             }
             else
             {
@@ -121,6 +125,7 @@ namespace UltimateQuiz_v0._2
                 lblAnswerStatus5.Text = "Correct!";
                 lblAnswerStatus5.BackColor = Color.Lime;
                 score++;
+                textBoxG5.ReadOnly = true;
             }
             else
             {
