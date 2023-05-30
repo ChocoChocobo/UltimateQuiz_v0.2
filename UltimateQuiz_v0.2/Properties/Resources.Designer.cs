@@ -63,16 +63,6 @@ namespace UltimateQuiz_v0._2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _360_F_296055218_RXc721N9fSYIz3sEV7QALYquMVP31jdJ {
-            get {
-                object obj = ResourceManager.GetObject("360_F_296055218_RXc721N9fSYIz3sEV7QALYquMVP31jdJ", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap cookie_transparent {
             get {
                 object obj = ResourceManager.GetObject("cookie_transparent", resourceCulture);

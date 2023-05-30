@@ -127,7 +127,4 @@
   <data name="cookie_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cookie_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="360_F_296055218_RXc721N9fSYIz3sEV7QALYquMVP31jdJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\360_F_296055218_RXc721N9fSYIz3sEV7QALYquMVP31jdJ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -196,9 +196,8 @@
             this.lblAnswerStatus1.BackColor = System.Drawing.Color.White;
             this.lblAnswerStatus1.Location = new System.Drawing.Point(362, 42);
             this.lblAnswerStatus1.Name = "lblAnswerStatus1";
-            this.lblAnswerStatus1.Size = new System.Drawing.Size(40, 23);
+            this.lblAnswerStatus1.Size = new System.Drawing.Size(0, 23);
             this.lblAnswerStatus1.TabIndex = 5;
-            this.lblAnswerStatus1.Text = "123";
             // 
             // lblAnswerStatus2
             // 
@@ -206,9 +205,8 @@
             this.lblAnswerStatus2.BackColor = System.Drawing.Color.White;
             this.lblAnswerStatus2.Location = new System.Drawing.Point(362, 121);
             this.lblAnswerStatus2.Name = "lblAnswerStatus2";
-            this.lblAnswerStatus2.Size = new System.Drawing.Size(40, 23);
+            this.lblAnswerStatus2.Size = new System.Drawing.Size(0, 23);
             this.lblAnswerStatus2.TabIndex = 5;
-            this.lblAnswerStatus2.Text = "123";
             // 
             // lblAnswerStatus3
             // 
@@ -216,9 +214,8 @@
             this.lblAnswerStatus3.BackColor = System.Drawing.Color.White;
             this.lblAnswerStatus3.Location = new System.Drawing.Point(362, 200);
             this.lblAnswerStatus3.Name = "lblAnswerStatus3";
-            this.lblAnswerStatus3.Size = new System.Drawing.Size(40, 23);
+            this.lblAnswerStatus3.Size = new System.Drawing.Size(0, 23);
             this.lblAnswerStatus3.TabIndex = 5;
-            this.lblAnswerStatus3.Text = "123";
             // 
             // lblAnswerStatus4
             // 
@@ -226,9 +223,8 @@
             this.lblAnswerStatus4.BackColor = System.Drawing.Color.White;
             this.lblAnswerStatus4.Location = new System.Drawing.Point(362, 281);
             this.lblAnswerStatus4.Name = "lblAnswerStatus4";
-            this.lblAnswerStatus4.Size = new System.Drawing.Size(40, 23);
+            this.lblAnswerStatus4.Size = new System.Drawing.Size(0, 23);
             this.lblAnswerStatus4.TabIndex = 5;
-            this.lblAnswerStatus4.Text = "123";
             // 
             // lblAnswerStatus5
             // 
@@ -236,9 +232,8 @@
             this.lblAnswerStatus5.BackColor = System.Drawing.Color.White;
             this.lblAnswerStatus5.Location = new System.Drawing.Point(362, 407);
             this.lblAnswerStatus5.Name = "lblAnswerStatus5";
-            this.lblAnswerStatus5.Size = new System.Drawing.Size(40, 23);
+            this.lblAnswerStatus5.Size = new System.Drawing.Size(0, 23);
             this.lblAnswerStatus5.TabIndex = 5;
-            this.lblAnswerStatus5.Text = "123";
             // 
             // pictureBox1
             // 
