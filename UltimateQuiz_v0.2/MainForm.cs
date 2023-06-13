@@ -20,8 +20,18 @@ namespace UltimateQuiz_v0._2
         private void buttonToUsersManager_Click(object sender, EventArgs e)
         {
             UserManagerForm userManagerForm = new UserManagerForm();
+            userManagerForm.FormClosed += UserManagerForm_FormClosed;
             userManagerForm.ShowDialog();
 
+            BindingList<User> userList = userManagerForm.Users;
+
+            listBoxUsersMainForm.DataSource = userList;
+            listBoxUsersMainForm.DisplayMember = "Name";
+            listBoxUsersMainForm.ValueMember = "Id";
+        }
+        private void UserManagerForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            UserManagerForm userManagerForm = (UserManagerForm)sender;
             BindingList<User> userList = userManagerForm.Users;
 
             listBoxUsersMainForm.DataSource = userList;

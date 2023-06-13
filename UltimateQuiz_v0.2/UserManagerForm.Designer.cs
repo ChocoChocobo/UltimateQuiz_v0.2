@@ -147,6 +147,7 @@
             this.MinimumSize = new System.Drawing.Size(393, 258);
             this.Name = "UserManagerForm";
             this.Text = "UserManagerForm";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.UserManagerForm_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

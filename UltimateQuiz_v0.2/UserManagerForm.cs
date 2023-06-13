@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using Newtonsoft.Json;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,14 +16,30 @@ namespace UltimateQuiz_v0._2
     public partial class UserManagerForm : Form
     {
         private BindingList<User> users;
+        private string userListFilePath = "userList.txt";
         public UserManagerForm()
         {
             InitializeComponent();
 
-            users = new BindingList<User>
+            LoadUserListFromFile();
+            InitializeListBox();
+        }
+
+        private void LoadUserListFromFile()
+        {
+            if (File.Exists(userListFilePath))
             {
-                new User { Id = 1, Name = "Example"}
-            };
+                string json = File.ReadAllText(userListFilePath);
+                users = JsonConvert.DeserializeObject<BindingList<User>>(json);
+            }
+            else
+            {
+                users = new BindingList<User>();
+            }
+        }
+
+        private void InitializeListBox()
+        {
             listBoxUsers.DataSource = users;
             listBoxUsers.DisplayMember = "Name";
             listBoxUsers.ValueMember = "Id";
@@ -73,7 +91,15 @@ namespace UltimateQuiz_v0._2
             User.UpdateLastAssignedId(maxId);
         }
 
-        
+        private void UserManagerForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            SaveUserListToFile();
+        }
+        private void SaveUserListToFile()
+        {
+            string json = JsonConvert.SerializeObject(users);
+            File.WriteAllText(userListFilePath, json);
+        }
     }
     public class User
     {
