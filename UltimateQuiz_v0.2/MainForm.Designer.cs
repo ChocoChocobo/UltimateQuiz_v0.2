@@ -36,6 +36,10 @@
             this.buttonVideoGames = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.buttonToUsersManager = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.listBoxUsersMainForm = new System.Windows.Forms.ListBox();
+            this.labelUsersList = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -94,7 +98,7 @@
             // 
             this.buttonVideoGames.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.buttonVideoGames.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonVideoGames.BackColor = System.Drawing.Color.White;
+            this.buttonVideoGames.BackColor = System.Drawing.Color.FloralWhite;
             this.buttonVideoGames.Location = new System.Drawing.Point(307, 481);
             this.buttonVideoGames.Margin = new System.Windows.Forms.Padding(20);
             this.buttonVideoGames.Name = "buttonVideoGames";
@@ -126,6 +130,50 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "More topics will be added in future versions! Well... Maybe..?\r\n";
             // 
+            // buttonToUsersManager
+            // 
+            this.buttonToUsersManager.BackColor = System.Drawing.Color.FloralWhite;
+            this.buttonToUsersManager.Location = new System.Drawing.Point(342, 140);
+            this.buttonToUsersManager.Name = "buttonToUsersManager";
+            this.buttonToUsersManager.Size = new System.Drawing.Size(130, 48);
+            this.buttonToUsersManager.TabIndex = 6;
+            this.buttonToUsersManager.Text = "Users";
+            this.buttonToUsersManager.UseVisualStyleBackColor = false;
+            this.buttonToUsersManager.Click += new System.EventHandler(this.buttonToUsersManager_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Location = new System.Drawing.Point(12, 140);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(317, 48);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "I would recommend you \r\nto create a user before you start =>\r\n";
+            // 
+            // listBoxUsersMainForm
+            // 
+            this.listBoxUsersMainForm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listBoxUsersMainForm.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.listBoxUsersMainForm.FormattingEnabled = true;
+            this.listBoxUsersMainForm.ItemHeight = 19;
+            this.listBoxUsersMainForm.Location = new System.Drawing.Point(12, 227);
+            this.listBoxUsersMainForm.Name = "listBoxUsersMainForm";
+            this.listBoxUsersMainForm.Size = new System.Drawing.Size(460, 78);
+            this.listBoxUsersMainForm.TabIndex = 7;
+            // 
+            // labelUsersList
+            // 
+            this.labelUsersList.AutoSize = true;
+            this.labelUsersList.BackColor = System.Drawing.Color.White;
+            this.labelUsersList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.labelUsersList.Location = new System.Drawing.Point(12, 199);
+            this.labelUsersList.Name = "labelUsersList";
+            this.labelUsersList.Size = new System.Drawing.Size(64, 25);
+            this.labelUsersList.TabIndex = 8;
+            this.labelUsersList.Text = "Users:";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -133,6 +181,10 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(484, 611);
+            this.Controls.Add(this.labelUsersList);
+            this.Controls.Add(this.listBoxUsersMainForm);
+            this.Controls.Add(this.buttonToUsersManager);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonVideoGames);
             this.Controls.Add(this.buttonGeo);
@@ -162,6 +214,10 @@
         private System.Windows.Forms.Button buttonVideoGames;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button buttonToUsersManager;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ListBox listBoxUsersMainForm;
+        private System.Windows.Forms.Label labelUsersList;
     }
 }
 

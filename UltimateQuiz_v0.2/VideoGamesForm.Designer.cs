@@ -55,7 +55,7 @@
             // 
             this.buttonCheckAnswers.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.buttonCheckAnswers.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonCheckAnswers.BackColor = System.Drawing.Color.White;
+            this.buttonCheckAnswers.BackColor = System.Drawing.Color.FloralWhite;
             this.buttonCheckAnswers.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonCheckAnswers.Location = new System.Drawing.Point(132, 550);
             this.buttonCheckAnswers.Margin = new System.Windows.Forms.Padding(0);
@@ -180,7 +180,7 @@
             // 
             this.buttonBack.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.buttonBack.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.buttonBack.BackColor = System.Drawing.Color.White;
+            this.buttonBack.BackColor = System.Drawing.Color.FloralWhite;
             this.buttonBack.Location = new System.Drawing.Point(7, 550);
             this.buttonBack.Margin = new System.Windows.Forms.Padding(0);
             this.buttonBack.Name = "buttonBack";

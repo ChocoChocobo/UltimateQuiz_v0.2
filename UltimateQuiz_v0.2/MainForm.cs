@@ -14,7 +14,19 @@ namespace UltimateQuiz_v0._2
     {
         public MainForm()
         {
-            InitializeComponent();
+            InitializeComponent();   
+        }
+
+        private void buttonToUsersManager_Click(object sender, EventArgs e)
+        {
+            UserManagerForm userManagerForm = new UserManagerForm();
+            userManagerForm.ShowDialog();
+
+            BindingList<User> userList = userManagerForm.Users;
+
+            listBoxUsersMainForm.DataSource = userList;
+            listBoxUsersMainForm.DisplayMember = "Name";
+            listBoxUsersMainForm.ValueMember = "Id";
         }
 
         private void buttonVideoGames_Click(object sender, EventArgs e)
@@ -23,6 +35,6 @@ namespace UltimateQuiz_v0._2
             this.Hide();
             videoGamesForm.ShowDialog();
             this.Show();
-        }
+        }        
     }
 }
